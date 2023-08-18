@@ -1,0 +1,25 @@
+# 忽略目录
+.vscode/
+packages/
+public/
+node_modules/
+dist/
+
+# 忽略指定文件
+.eslintrc.cjs
+.hintrc
+.npmignore
+.prettierrc.json
+env.d.ts
+index.html
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+tsconfig.vitest.json
+tsconfig.app.json
+vite.config.ts
+vitest.config.ts
+.gitignore
+*.map
+*.tgz
+*.zip
