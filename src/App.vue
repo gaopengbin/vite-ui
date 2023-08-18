@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { testFunc } from 'lib'
+// import { testFunc } from 'lib'
 </script>
 
 <template>

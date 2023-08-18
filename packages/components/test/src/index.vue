@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, inject } from 'vue'
 import './index.scss'
 export default defineComponent({
   name: 'lg-test',
@@ -11,6 +11,8 @@ export default defineComponent({
   props: {},
   emits: {},
   setup(props, ctx) {
+    const earth = inject('earth')
+    console.log(earth)
     return {}
   }
 })

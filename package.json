@@ -1,6 +1,6 @@
 {
-  "name": "laogao-test-ui",
-  "version": "0.0.1",
+  "name": "epsplanet-bwl",
+  "version": "2.0.0",
   "private": false,
   "author": {
     "name": "laogao",
@@ -44,6 +44,7 @@
     "publish": "npm run build && npm publish --access public"
   },
   "dependencies": {
+    "element-plus": "^2.3.9",
     "vite-plugin-dts": "^2.3.0",
     "vue": "^3.3.2"
   },

@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onMounted } from 'vue'
+import { defineComponent, getCurrentInstance, onMounted } from 'vue'
 import './index.scss'
 export default defineComponent({
   name: 'lg-earth',
@@ -14,6 +14,10 @@ export default defineComponent({
     onMounted(() => {
       const container = document.querySelector('#container')
       const earth = new XE.Earth(container)
+      const app = getCurrentInstance()
+      app?.appContext.app.provide('earth', earth)
+      
+      console.log(app)
     })
     return {}
   }

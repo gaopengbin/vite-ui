@@ -1,4 +1,4 @@
-declare module 'laogao-test-ui' {
+declare module 'epsplanet-bwl' {
   import { App } from 'vue'
   const LGUI: {
     install(app: App): void
